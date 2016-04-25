@@ -22,19 +22,19 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">106</div>
+<div class="counter">81</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">19</div>
+<div class="counter">13</div>
 <p>failures</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2h38m32.14s</div>
+<div class="counter">2h20m35.05s</div>
 <p>duration</p>
 </div>
 </td>
@@ -44,7 +44,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">82%</div>
+<div class="percent">83%</div>
 <p>successful</p>
 </div>
 </td>
@@ -59,23 +59,20 @@
 <li>
 <a href="#tab1">Tests</a>
 </li>
-<li>
-<a href="#tab2">Devices</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="testIfInTheHomeScreenAllTheRequiredTextsAreVisibleInTheScreenAfterWeManuallySetTheLocation"></a>
-<h3 class="failures">testIfInTheHomeScreenAllTheRequiredTextsAreVisibleInTheScreenAfterWeManuallySetTheLocation [Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4] (on 1/2 devices)</h3>
+<a name="testIfTheCostForTwoPeopleIsWorkingInSorting"></a>
+<h3 class="failures">testIfTheCostForTwoPeopleIsWorkingInSorting</h3>
 <span class="code">
 <pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.android.HomeScreenMethods.redirectUserToHomeScreen(HomeScreenMethods.java:33)
-at com.ressy.android.ApplicationTest.testIfInTheHomeScreenAllTheRequiredTextsAreVisibleInTheScreenAfterWeManuallySetTheLocation(ApplicationTest.java:307)
+at com.ressy.android.ApplicationTest.testIfTheCostForTwoPeopleIsWorkingInSorting(ApplicationTest.java:2418)
 at java.lang.reflect.Method.invokeNative(Native Method)
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
@@ -84,35 +81,19 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:17
 </span>
 </div>
 <div class="test">
-<a name="testIfTheCostForTwoOptionIsWorking"></a>
-<h3 class="failures">testIfTheCostForTwoOptionIsWorking [all devices]</h3>
+<a name="testIfTheSearchRestaurantWorks"></a>
+<h3 class="failures">testIfTheSearchRestaurantWorks</h3>
 <span class="code">
-<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.android.ApplicationTest.testIfTheCostForTwoOptionIsWorking(ApplicationTest.java:2030)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDineInDialogue"></a>
-<h3 class="failures">testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDineInDialogue [Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4] (on 1/2 devices)</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: View with id: 'address_value' is not found!
+<pre>junit.framework.AssertionFailedError: View with id: 'cities_available_text' is not found!
 at com.robotium.solo.Solo.getView(Solo.java:3102)
 at com.robotium.solo.Solo.getView(Solo.java:3078)
 at com.ressy.Utility.UtilityMethodsForAutomation.retrieveTheBackgroundTextFromATextView(UtilityMethodsForAutomation.java:34)
-at com.ressy.android.ApplicationTest.testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDineInDialogue(ApplicationTest.java:1303)
+at com.ressy.android.ApplicationTest.testIfTheSearchRestaurantWorks(ApplicationTest.java:2756)
 at java.lang.reflect.Method.invokeNative(Native Method)
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
@@ -121,38 +102,189 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:17
 </span>
 </div>
 <div class="test">
-<a name="testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForTakeAwayDialogue"></a>
-<h3 class="failures">testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForTakeAwayDialogue [HTC Desire 626GPLUS dual sim - 4.4.2] (on 1/2 devices)</h3>
+<a name="testaIfUpdateNotificationIsWorking"></a>
+<h3 class="failures">testaIfUpdateNotificationIsWorking</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+at com.ressy.android.ApplicationTest.testaIfUpdateNotificationIsWorking(ApplicationTest.java:88)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testaZIfWeAdd91IsAdded"></a>
+<h3 class="failures">testaZIfWeAdd91IsAdded</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+at com.ressy.android.ApplicationTest.testaZIfWeAdd91IsAdded(ApplicationTest.java:507)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfInTheLoginScreenIfLoginWithGoogleIsWorking"></a>
+<h3 class="failures">testcIfInTheLoginScreenIfLoginWithGoogleIsWorking</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+at com.ressy.android.ApplicationTest.testcIfInTheLoginScreenIfLoginWithGoogleIsWorking(ApplicationTest.java:2647)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfTheBeveragesSortingOptionWorksOnAllTheTabs"></a>
+<h3 class="failures">testcIfTheBeveragesSortingOptionWorksOnAllTheTabs</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;Shows the food too.&gt;
+at com.ressy.android.ApplicationTest.testcIfTheBeveragesSortingOptionWorksOnAllTheTabs(ApplicationTest.java:2347)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfTheCostForTwoOptionIsWorking"></a>
+<h3 class="failures">testcIfTheCostForTwoOptionIsWorking</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+at com.ressy.android.ApplicationTest.testcIfTheCostForTwoOptionIsWorking(ApplicationTest.java:2054)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfTheFoodSortingOptionWorksOnAllTheTabs"></a>
+<h3 class="failures">testcIfTheFoodSortingOptionWorksOnAllTheTabs</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;Shows the beverage too.&gt;
+at com.ressy.android.ApplicationTest.testcIfTheFoodSortingOptionWorksOnAllTheTabs(ApplicationTest.java:2340)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfTheOpeningHoursTextIsWorking"></a>
+<h3 class="failures">testcIfTheOpeningHoursTextIsWorking</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: Click at (701.5, 52.0) can not be completed! (java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission)
+at com.robotium.solo.Clicker.clickOnScreen(Clicker.java:107)
+at com.robotium.solo.Clicker.clickOnScreen(Clicker.java:206)
+at com.robotium.solo.Clicker.clickOnScreen(Clicker.java:171)
+at com.robotium.solo.Solo.clickOnView(Solo.java:1435)
+at com.ressy.Utility.UtilityMethodsForAutomation.clickOnThisView(UtilityMethodsForAutomation.java:20)
+at com.ressy.android.ApplicationTest.testcIfTheOpeningHoursTextIsWorking(ApplicationTest.java:2065)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfTheReviewFeatureIsWorkingProperlyInTheRestaurantDetailsSCreen"></a>
+<h3 class="failures">testcIfTheReviewFeatureIsWorkingProperlyInTheRestaurantDetailsSCreen</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: View with id: 'name' is not found!
+at com.robotium.solo.Solo.getView(Solo.java:3102)
+at com.robotium.solo.Solo.getView(Solo.java:3078)
+at com.ressy.Utility.UtilityMethodsForAutomation.retrieveTheBackgroundTextFromATextView(UtilityMethodsForAutomation.java:34)
+at com.ressy.android.ApplicationTest.testcIfTheReviewFeatureIsWorkingProperlyInTheRestaurantDetailsSCreen(ApplicationTest.java:2014)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfUserCanDeleteMorethanTwoCouponsInDelivery"></a>
+<h3 class="failures">testcIfUserCanDeleteMorethanTwoCouponsInDelivery</h3>
+<span class="code">
+<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+at com.ressy.android.ApplicationTest.testcIfUserCanDeleteMorethanTwoCouponsInDelivery(ApplicationTest.java:2256)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testcIfUserCanDeleteMorethanTwoCouponsInDineIn"></a>
+<h3 class="failures">testcIfUserCanDeleteMorethanTwoCouponsInDineIn</h3>
 <span class="code">
 <pre>junit.framework.AssertionFailedError: Text string: 'Avail Now' is not found!
 at com.robotium.solo.Clicker.clickOnText(Clicker.java:451)
 at com.robotium.solo.Solo.clickOnText(Solo.java:1502)
-at com.ressy.testMethods.CouponScreenMethods.buyACouponToCheckTheReasonsForTakeAway(CouponScreenMethods.java:64)
-at com.ressy.android.ApplicationTest.testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForTakeAwayDialogue(ApplicationTest.java:1781)
+at com.ressy.testMethods.BuyCoupons.buyCouponFromThisCategory(BuyCoupons.java:23)
+at com.ressy.android.ApplicationTest.testcIfUserCanDeleteMorethanTwoCouponsInDineIn(ApplicationTest.java:2218)
 at java.lang.reflect.Method.invokeNative(Native Method)
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1710)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfTheDineInCouponHasRequiredDetailsPresentInTheScreen"></a>
-<h3 class="failures">testIfTheDineInCouponHasRequiredDetailsPresentInTheScreen [Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4] (on 1/2 devices)</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: View with id: 'address_value' is not found!
-at com.robotium.solo.Solo.getView(Solo.java:3102)
-at com.robotium.solo.Solo.getView(Solo.java:3078)
-at com.ressy.Utility.UtilityMethodsForAutomation.retrieveTheBackgroundTextFromATextView(UtilityMethodsForAutomation.java:34)
-at com.ressy.android.ApplicationTest.testIfTheDineInCouponHasRequiredDetailsPresentInTheScreen(ApplicationTest.java:1020)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
@@ -161,127 +293,16 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:17
 </span>
 </div>
 <div class="test">
-<a name="testIfThePhoneNumberIsHavingMoreThan10Digits"></a>
-<h3 class="failures">testIfThePhoneNumberIsHavingMoreThan10Digits [Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4] (on 1/2 devices)</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: Text string: 'LOGIN' is not found!
-at com.robotium.solo.Clicker.clickOnText(Clicker.java:451)
-at com.robotium.solo.Solo.clickOnText(Solo.java:1502)
-at com.ressy.testMethods.RessySignUpPage.redirectUserToSignUpScreen(RessySignUpPage.java:19)
-at com.ressy.android.ApplicationTest.testIfThePhoneNumberIsHavingMoreThan10Digits(ApplicationTest.java:446)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfUpdateNotificationIsWorking"></a>
-<h3 class="failures">testIfUpdateNotificationIsWorking [all devices]</h3>
+<a name="testcIfUserCanDeleteMorethanTwoCouponsInTakeAway"></a>
+<h3 class="failures">testcIfUserCanDeleteMorethanTwoCouponsInTakeAway</h3>
 <span class="code">
 <pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.android.ApplicationTest.testIfUpdateNotificationIsWorking(ApplicationTest.java:75)
+at com.ressy.android.ApplicationTest.testcIfUserCanDeleteMorethanTwoCouponsInTakeAway(ApplicationTest.java:2295)
 at java.lang.reflect.Method.invokeNative(Native Method)
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfUserCanBuyMoreThanOneCouponInTakeAway"></a>
-<h3 class="failures">testIfUserCanBuyMoreThanOneCouponInTakeAway [all devices]</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.android.ApplicationTest.testIfUserCanBuyMoreThanOneCouponInTakeAway(ApplicationTest.java:2157)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfUserCanDeleteMorethanTwoCouponsInDineIn"></a>
-<h3 class="failures">testIfUserCanDeleteMorethanTwoCouponsInDineIn [all devices]</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: Text string: 'Avail Now' is not found!
-at com.robotium.solo.Clicker.clickOnText(Clicker.java:451)
-at com.robotium.solo.Solo.clickOnText(Solo.java:1502)
-at com.ressy.testMethods.BuyCoupons.buyCouponFromThisCategory(BuyCoupons.java:22)
-at com.ressy.android.ApplicationTest.testIfUserCanDeleteMorethanTwoCouponsInDineIn(ApplicationTest.java:2198)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfWeCanSignUpWithTheSameEmailIdAgain"></a>
-<h3 class="failures">testIfWeCanSignUpWithTheSameEmailIdAgain [all devices]</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: View with id: 'sign_up' is not found!
-at com.robotium.solo.Solo.getView(Solo.java:3102)
-at com.robotium.solo.Solo.getView(Solo.java:3078)
-at com.ressy.Utility.UtilityMethodsForAutomation.clickOnThisView(UtilityMethodsForAutomation.java:19)
-at com.ressy.android.ApplicationTest.testIfWeCanSignUpWithTheSameEmailIdAgain(ApplicationTest.java:2059)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testIfWeCanTrasactUsingPaytmInAllSections"></a>
-<h3 class="failures">testIfWeCanTrasactUsingPaytmInAllSections [all devices]</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.testMethods.BuyCoupons.buyThisCoupon(BuyCoupons.java:67)
-at com.ressy.android.ApplicationTest.testIfWeCanTrasactUsingPaytmInAllSections(ApplicationTest.java:675)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testZIfWeAdd91IsAdded"></a>
-<h3 class="failures">testZIfWeAdd91IsAdded [all devices]</h3>
-<span class="code">
-<pre>junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
-at com.ressy.android.ApplicationTest.testZIfWeAdd91IsAdded(ApplicationTest.java:493)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.ressy.android.ApplicationTest.runTest(ApplicationTest.java:2767)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
@@ -296,309 +317,339 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:17
 <thead>
 <tr>
 <th>Test</th>
-<th>Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4</th>
-<th>HTC Desire 626GPLUS dual sim - 4.4.2</th>
+<th>Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 - 4.4.4</th>
 </tr>
 </thead>
 <tr>
-<td>testIfAfterOpeningTheAppWeGoToSkipScreenAndTheRequiredTextsAreVisibleAndWeCanClickOnSkipAndNextScreenWillNotShowUp</td>
-<td class="success">passed (1m10.01s)</td>
-<td class="success">passed (1m10.27s)</td>
+<td>testIfTheCostForTwoPeopleIsWorkingInSorting</td>
+<td class="failures">failed (3m45.98s)</td>
 </tr>
 <tr>
-<td>testIfEmailIdIsValidated</td>
-<td class="success">passed (52.511s)</td>
-<td class="success">passed (52.325s)</td>
+<td>testIfTheSearchRestaurantWorks</td>
+<td class="failures">failed (1m3.61s)</td>
 </tr>
 <tr>
-<td>testIfInTheEditProfileScreenIfConfirmPasswordCanBeLessThanEightDigitsAndPasswordIsLessThanEightDigits</td>
-<td class="success">passed (58.674s)</td>
-<td class="success">passed (56.407s)</td>
+<td>testIfUserCanApplyDifferentCouponAndResultsAreAsPerRequirement</td>
+<td class="success">passed (1m49.09s)</td>
 </tr>
 <tr>
-<td>testIfInTheEditProfileScreenIfPasswordFieldAcceptsLessThanEightCharacters</td>
-<td class="success">passed (55.309s)</td>
-<td class="success">passed (54.187s)</td>
-</tr>
-<tr>
-<td>testIfInTheEditProfileScreenIfTheScreenIfPasswordAndConfirmPasswordsDoNotMatch</td>
-<td class="success">passed (58.549s)</td>
-<td class="success">passed (54.413s)</td>
-</tr>
-<tr>
-<td>testIfInTheEditProfileScreenIfTheScreenIfThePasswordFieldsAcceptWhiteSpaces</td>
-<td class="success">passed (55.346s)</td>
-<td class="success">passed (54.302s)</td>
-</tr>
-<tr>
-<td>testIfInTheFeedbackFormIfTheValidationForIPaidInCashIsAdded</td>
-<td class="success">passed (2m11.74s)</td>
-<td class="success">passed (2m12.23s)</td>
-</tr>
-<tr>
-<td>testIfInTheFeedbackFormIfTheValidationForMyValidationIsNotListed</td>
-<td class="success">passed (1m54.89s)</td>
-<td class="success">passed (1m54.23s)</td>
-</tr>
-<tr>
-<td>testIfInTheHomeScreenAllTheRequiredTextsAreVisibleInTheScreenAfterWeManuallySetTheLocation</td>
-<td class="failures">failed (1m12.40s)</td>
-<td class="success">passed (1m22.89s)</td>
-</tr>
-<tr>
-<td>testIfInTheInitialScreensTheNextButtonAndBackButtonWorksProperly</td>
-<td class="success">passed (1m23.51s)</td>
-<td class="success">passed (1m23.30s)</td>
-</tr>
-<tr>
-<td>testIfInTheMenuDropDownIfContactUsLinkIsWorkingWhenTheUserIsNotLoggedIn</td>
-<td class="success">passed (52.458s)</td>
-<td class="success">passed (52.317s)</td>
-</tr>
-<tr>
-<td>testIfInTheSignUpPageWeTryToSignUsingEmptyCredentials</td>
-<td class="success">passed (53.057s)</td>
-<td class="success">passed (53.548s)</td>
-</tr>
-<tr>
-<td>testIfTheCostForTwoOptionIsWorking</td>
-<td class="failures">failed (54.284s)</td>
-<td class="failures">failed (55.703s)</td>
-</tr>
-<tr>
-<td>testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDeliveryDialogue</td>
-<td class="success">passed (5m21.75s)</td>
-<td class="success">passed (5m18.40s)</td>
-</tr>
-<tr>
-<td>testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDineInDialogue</td>
-<td class="failures">failed (55.256s)</td>
-<td class="success">passed (4m18.50s)</td>
-</tr>
-<tr>
-<td>testIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForTakeAwayDialogue</td>
-<td class="success">passed (6m15.07s)</td>
-<td class="failures">failed (4m12.92s)</td>
-</tr>
-<tr>
-<td>testIfTheDeliveryInCouponHasRequiredDetailsPresentInTheScreen</td>
-<td class="success">passed (3m7.64s)</td>
-<td class="success">passed (3m2.77s)</td>
-</tr>
-<tr>
-<td>testIfTheDineInCouponHasRequiredDetailsPresentInTheScreen</td>
-<td class="failures">failed (56.848s)</td>
-<td class="success">passed (2m9.67s)</td>
-</tr>
-<tr>
-<td>testIfTheEMailIdIsNull</td>
-<td class="success">passed (50.532s)</td>
-<td class="success">passed (55.324s)</td>
-</tr>
-<tr>
-<td>testIfTheEditButtonInProfileIsWorking</td>
-<td class="success">passed (1m5.09s)</td>
-<td class="success">passed (1m6.85s)</td>
-</tr>
-<tr>
-<td>testIfTheLocationIsDisableCanWeRoamAroundInTheAppWithoutItGettingCrashes</td>
-<td class="success">passed (4m9.75s)</td>
-<td class="success">passed (4m7.96s)</td>
-</tr>
-<tr>
-<td>testIfTheMenuOptionIsWorkingInRestaurantDetailsScreen</td>
-<td class="success">passed (55.477s)</td>
-<td class="success">passed (57.101s)</td>
-</tr>
-<tr>
-<td>testIfTheNameAcceptsAbsoluteSpecialCharacters</td>
-<td class="success">passed (49.844s)</td>
-<td class="success">passed (53.726s)</td>
-</tr>
-<tr>
-<td>testIfTheNameAcceptsAlphanumericValues</td>
-<td class="success">passed (50.164s)</td>
-<td class="success">passed (53.030s)</td>
-</tr>
-<tr>
-<td>testIfTheNameAcceptsWhiteSpaces</td>
-<td class="success">passed (49.825s)</td>
-<td class="success">passed (53.828s)</td>
-</tr>
-<tr>
-<td>testIfTheNameDoesNotAcceptsNullValues</td>
-<td class="success">passed (49.131s)</td>
-<td class="success">passed (50.416s)</td>
-</tr>
-<tr>
-<td>testIfTheNormalSignUpAndLoginWorks</td>
-<td class="success">passed (1m9.64s)</td>
-<td class="success">passed (1m9.68s)</td>
-</tr>
-<tr>
-<td>testIfTheOpeningHoursTextIsWorking</td>
-<td class="success">passed (52.921s)</td>
-<td class="success">passed (51.805s)</td>
-</tr>
-<tr>
-<td>testIfThePasswordHasLessThan8Chars</td>
-<td class="success">passed (50.602s)</td>
-<td class="success">passed (52.704s)</td>
-</tr>
-<tr>
-<td>testIfThePasswordIsNull</td>
-<td class="success">passed (51.144s)</td>
-<td class="success">passed (52.165s)</td>
-</tr>
-<tr>
-<td>testIfThePhoneNumberContainsWhiteSpaces</td>
-<td class="success">passed (53.441s)</td>
-<td class="success">passed (54.961s)</td>
-</tr>
-<tr>
-<td>testIfThePhoneNumberIsHavingLessThan10Digits</td>
-<td class="success">passed (52.813s)</td>
-<td class="success">passed (55.384s)</td>
-</tr>
-<tr>
-<td>testIfThePhoneNumberIsHavingMoreThan10Digits</td>
-<td class="failures">failed (1m0.27s)</td>
-<td class="success">passed (54.588s)</td>
-</tr>
-<tr>
-<td>testIfThePhoneNumberIsNull</td>
-<td class="success">passed (52.975s)</td>
-<td class="success">passed (52.972s)</td>
-</tr>
-<tr>
-<td>testIfTheProfileSceenIsAsPerDesignAndUsersNameAndEmailAndHisNameIsVisibleInTheScreen</td>
-<td class="success">passed (1m11.06s)</td>
-<td class="success">passed (1m13.48s)</td>
-</tr>
-<tr>
-<td>testIfTheReviewFeatureIsWorkingProperlyInTheRestaurantDetailsSCreen</td>
-<td class="success">passed (1m33.01s)</td>
-<td class="success">passed (1m30.11s)</td>
-</tr>
-<tr>
-<td>testIfTheSignUpLinkWorks</td>
-<td class="success">passed (55.834s)</td>
-<td class="success">passed (55.875s)</td>
-</tr>
-<tr>
-<td>testIfTheTakeAwayInCouponHasRequiredDetailsPresentInTheScreen</td>
-<td class="success">passed (3m28.60s)</td>
-<td class="success">passed (3m22.16s)</td>
-</tr>
-<tr>
-<td>testIfUpdateNotificationIsWorking</td>
-<td class="failures">failed (1m5.04s)</td>
-<td class="failures">failed (1m6.59s)</td>
-</tr>
-<tr>
-<td>testIfUserCanBuyMoreThanOneCouponInDelivery</td>
-<td class="success">passed (1m58.39s)</td>
-<td class="success">passed (2m0.04s)</td>
-</tr>
-<tr>
-<td>testIfUserCanBuyMoreThanOneCouponInDineIn</td>
-<td class="success">passed (1m30.71s)</td>
-<td class="success">passed (1m30.55s)</td>
-</tr>
-<tr>
-<td>testIfUserCanBuyMoreThanOneCouponInTakeAway</td>
-<td class="failures">failed (1m52.45s)</td>
-<td class="failures">failed (1m52.53s)</td>
-</tr>
-<tr>
-<td>testIfUserCanDeleteMorethanTwoCouponsInDineIn</td>
-<td class="failures">failed (2m21.46s)</td>
-<td class="failures">failed (2m20.35s)</td>
-</tr>
-<tr>
-<td>testIfWeCanChangeThePasswordAndProperValidationIsPutinPlace</td>
-<td class="success">passed (1m34.22s)</td>
-<td class="success">passed (1m36.87s)</td>
-</tr>
-<tr>
-<td>testIfWeCanPressHomeScreen</td>
-<td class="success">passed (47.408s)</td>
-<td class="success">passed (53.236s)</td>
-</tr>
-<tr>
-<td>testIfWeCanSignUpUsingGoogle</td>
-<td class="success">passed (1m20.74s)</td>
-<td class="success">passed (1m23.77s)</td>
-</tr>
-<tr>
-<td>testIfWeCanSignUpWithTheSameEmailIdAgain</td>
-<td class="failures">failed (1m4.50s)</td>
-<td class="failures">failed (1m3.62s)</td>
+<td>testIfUserCanChangeTheMobileNumberAndPhoneNumberFieldHasProperValidation</td>
+<td class="success">passed (1m0.03s)</td>
 </tr>
 <tr>
 <td>testIfWeCanTrasactUsingPaytmInAllSections</td>
-<td class="failures">failed (1m32.61s)</td>
-<td class="failures">failed (1m26.21s)</td>
-</tr>
-<tr>
-<td>testIfWeGiveASpaceBeforeTheEmailItAcceptsOrNot</td>
-<td class="success">passed (51.905s)</td>
-<td class="success">passed (54.138s)</td>
+<td class="success">passed (17m35.69s)</td>
 </tr>
 <tr>
 <td>testPopUpOptions</td>
-<td class="success">passed (1m6.49s)</td>
-<td class="success">passed (1m8.90s)</td>
+<td class="success">passed (58.340s)</td>
 </tr>
 <tr>
-<td>testThatWhenTheLocationIsTurnedOffAppRedirectsUsToTheLocationOrNotCheckThePopUpScreenToo</td>
-<td class="success">passed (1m8.88s)</td>
-<td class="success">passed (1m12.70s)</td>
+<td>testaIfAfterOpeningTheAppWeGoToSkipScreenAndTheRequiredTextsAreVisibleAndWeCanClickOnSkipAndNextScreenWillNotShowUp</td>
+<td class="success">passed (1m4.12s)</td>
 </tr>
 <tr>
-<td>testWhatHappensWhenWeClickOnMapsScreenWhenTheInternetIsNotAvailable</td>
-<td class="success">passed (1m52.02s)</td>
-<td class="success">passed (1m55.01s)</td>
+<td>testaIfEmailIdIsValidated</td>
+<td class="success">passed (43.670s)</td>
 </tr>
 <tr>
-<td>testZIfWeAdd91IsAdded</td>
-<td class="failures">failed (58.734s)</td>
-<td class="failures">failed (58.168s)</td>
-</tr>
-</table>
-</div>
-<div id="tab2" class="tab">
-<h2>Devices</h2>
-<table>
-<thead>
-<tr>
-<th>Devices</th>
-<th>Tests</th>
-<th>Failures</th>
-<th>Duration</th>
-<th>Success rate</th>
-</tr>
-</thead>
-<tr>
-<td class="failures">Google Nexus 4 - 4.4.4 - API 19 - 768x1280 - 4.4.4</td>
-<td>53</td>
-<td>11</td>
-<td>1h17m46.96s</td>
-<td>79%</td>
+<td>testaIfInTheHomeScreenAllTheRequiredTextsAreVisibleInTheScreenAfterWeManuallySetTheLocation</td>
+<td class="success">passed (1m17.34s)</td>
 </tr>
 <tr>
-<td class="failures">HTC Desire 626GPLUS dual sim - 4.4.2</td>
-<td>53</td>
-<td>8</td>
-<td>1h20m45.18s</td>
-<td>84%</td>
+<td>testaIfInTheInitialScreensTheNextButtonAndBackButtonWorksProperly</td>
+<td class="success">passed (1m17.27s)</td>
+</tr>
+<tr>
+<td>testaIfInTheSignUpPageWeTryToSignUsingEmptyCredentials</td>
+<td class="success">passed (43.691s)</td>
+</tr>
+<tr>
+<td>testaIfTheEMailIdIsNull</td>
+<td class="success">passed (44.562s)</td>
+</tr>
+<tr>
+<td>testaIfTheLocationIsDisableCanWeRoamAroundInTheAppWithoutItGettingCrashes</td>
+<td class="success">passed (3m58.78s)</td>
+</tr>
+<tr>
+<td>testaIfTheNameAcceptsAbsoluteSpecialCharacters</td>
+<td class="success">passed (43.397s)</td>
+</tr>
+<tr>
+<td>testaIfTheNameAcceptsAlphanumericValues</td>
+<td class="success">passed (45.057s)</td>
+</tr>
+<tr>
+<td>testaIfTheNameAcceptsWhiteSpaces</td>
+<td class="success">passed (45.951s)</td>
+</tr>
+<tr>
+<td>testaIfTheNameDoesNotAcceptsNullValues</td>
+<td class="success">passed (45.261s)</td>
+</tr>
+<tr>
+<td>testaIfThePasswordHasLessThan8Chars</td>
+<td class="success">passed (46.564s)</td>
+</tr>
+<tr>
+<td>testaIfThePasswordIsNull</td>
+<td class="success">passed (46.384s)</td>
+</tr>
+<tr>
+<td>testaIfThePhoneNumberContainsWhiteSpaces</td>
+<td class="success">passed (44.219s)</td>
+</tr>
+<tr>
+<td>testaIfThePhoneNumberIsHavingLessThan10Digits</td>
+<td class="success">passed (45.920s)</td>
+</tr>
+<tr>
+<td>testaIfThePhoneNumberIsHavingMoreThan10Digits</td>
+<td class="success">passed (44.014s)</td>
+</tr>
+<tr>
+<td>testaIfThePhoneNumberIsNull</td>
+<td class="success">passed (43.558s)</td>
+</tr>
+<tr>
+<td>testaIfTheSignUpLinkWorks</td>
+<td class="success">passed (49.983s)</td>
+</tr>
+<tr>
+<td>testaIfUpdateNotificationIsWorking</td>
+<td class="failures">failed (59.499s)</td>
+</tr>
+<tr>
+<td>testaIfWeCanPressHomeScreen</td>
+<td class="success">passed (43.203s)</td>
+</tr>
+<tr>
+<td>testaIfWeCanSignUpUsingGoogle</td>
+<td class="success">passed (1m13.25s)</td>
+</tr>
+<tr>
+<td>testaIfWeGiveASpaceBeforeTheEmailItAcceptsOrNot</td>
+<td class="success">passed (46.971s)</td>
+</tr>
+<tr>
+<td>testaThatWhenTheLocationIsTurnedOffAppRedirectsUsToTheLocationOrNotCheckThePopUpScreenToo</td>
+<td class="success">passed (1m2.02s)</td>
+</tr>
+<tr>
+<td>testaWhatHappensWhenWeClickOnMapsScreenWhenTheInternetIsNotAvailable</td>
+<td class="success">passed (1m43.07s)</td>
+</tr>
+<tr>
+<td>testaZIfWeAdd91IsAdded</td>
+<td class="failures">failed (49.064s)</td>
+</tr>
+<tr>
+<td>testbIfInTheEditProfileScreenIfConfirmPasswordCanBeLessThanEightDigitsAndPasswordIsLessThanEightDigits</td>
+<td class="success">passed (49.317s)</td>
+</tr>
+<tr>
+<td>testbIfInTheEditProfileScreenIfPasswordFieldAcceptsLessThanEightCharacters</td>
+<td class="success">passed (51.883s)</td>
+</tr>
+<tr>
+<td>testbIfInTheEditProfileScreenIfTheScreenIfPasswordAndConfirmPasswordsDoNotMatch</td>
+<td class="success">passed (49.330s)</td>
+</tr>
+<tr>
+<td>testbIfInTheEditProfileScreenIfTheScreenIfThePasswordFieldsAcceptWhiteSpaces</td>
+<td class="success">passed (52.116s)</td>
+</tr>
+<tr>
+<td>testbIfInTheFeedbackFormIfTheValidationForIPaidInCashIsAdded</td>
+<td class="success">passed (1m56.28s)</td>
+</tr>
+<tr>
+<td>testbIfInTheFeedbackFormIfTheValidationForMyValidationIsNotListed</td>
+<td class="success">passed (1m44.31s)</td>
+</tr>
+<tr>
+<td>testbIfInTheMenuDropDownIfContactUsLinkIsWorkingWhenTheUserIsNotLoggedIn</td>
+<td class="success">passed (47.840s)</td>
+</tr>
+<tr>
+<td>testbIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDeliveryDialogue</td>
+<td class="success">passed (5m19.62s)</td>
+</tr>
+<tr>
+<td>testbIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForDineInDialogue</td>
+<td class="success">passed (4m9.39s)</td>
+</tr>
+<tr>
+<td>testbIfTheCouponListPageIsDisplayingTheRequiredDetailsScreenProperlyForTakeAwayDialogue</td>
+<td class="success">passed (6m7.69s)</td>
+</tr>
+<tr>
+<td>testbIfTheDeliveryInCouponHasRequiredDetailsPresentInTheScreen</td>
+<td class="success">passed (2m57.78s)</td>
+</tr>
+<tr>
+<td>testbIfTheDineInCouponHasRequiredDetailsPresentInTheScreen</td>
+<td class="success">passed (2m0.34s)</td>
+</tr>
+<tr>
+<td>testbIfTheEditButtonInProfileIsWorking</td>
+<td class="success">passed (57.514s)</td>
+</tr>
+<tr>
+<td>testbIfTheInactiveDealsTextAreBeingShownInDeliveryTab</td>
+<td class="success">passed (1m51.88s)</td>
+</tr>
+<tr>
+<td>testbIfTheInactiveDealsTextAreBeingShownInDineInTab</td>
+<td class="success">passed (2m12.73s)</td>
+</tr>
+<tr>
+<td>testbIfTheInactiveDealsTextAreBeingShownInTakeAwayTab</td>
+<td class="success">passed (2m2.65s)</td>
+</tr>
+<tr>
+<td>testbIfTheNormalSignUpAndLoginWorks</td>
+<td class="success">passed (1m4.82s)</td>
+</tr>
+<tr>
+<td>testbIfTheProfileSceenIsAsPerDesignAndUsersNameAndEmailAndHisNameIsVisibleInTheScreen</td>
+<td class="success">passed (1m25.84s)</td>
+</tr>
+<tr>
+<td>testbIfTheTakeAwayInCouponHasRequiredDetailsPresentInTheScreen</td>
+<td class="success">passed (3m18.00s)</td>
+</tr>
+<tr>
+<td>testbIfWeCanChangeThePasswordAndProperValidationIsPutinPlace</td>
+<td class="success">passed (1m30.57s)</td>
+</tr>
+<tr>
+<td>testbbIfTheInactiveDealsTextAreBeingShownInPromotionalDeliveryTab</td>
+<td class="success">passed (1m31.17s)</td>
+</tr>
+<tr>
+<td>testbbIfTheInactiveDealsTextAreBeingShownInPromotionalDineInTab</td>
+<td class="success">passed (1m28.75s)</td>
+</tr>
+<tr>
+<td>testbbIfTheInactiveDealsTextAreBeingShownInPromotionalTakeAwayTab</td>
+<td class="success">passed (1m44.47s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfFacebookIsWorkingInThisPage</td>
+<td class="success">passed (1m33.39s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfLoginWithGoogleIsWorking</td>
+<td class="failures">failed (1m11.68s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfTheLoginCredentialsAreWrong</td>
+<td class="success">passed (37.661s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfUserFillsInvalidEmailID</td>
+<td class="success">passed (48.274s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfUserFillsNoPasswordAndHeTriesToLogin</td>
+<td class="success">passed (39.396s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfUserFillsPasswordWhichIsLessThanEightDigits</td>
+<td class="success">passed (37.238s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfUserFillsThePasswordWithSpecialCharactersAndhisPhoneNumberIsNotVerified</td>
+<td class="success">passed (41.931s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfWePutWhiteSpacesAfterEmailID</td>
+<td class="success">passed (41.128s)</td>
+</tr>
+<tr>
+<td>testcIfInTheLoginScreenIfWePutWhiteSpacesBeforeTheEmailId</td>
+<td class="success">passed (38.368s)</td>
+</tr>
+<tr>
+<td>testcIfTheBeveragesSortingOptionWorksOnAllTheTabs</td>
+<td class="failures">failed (55.185s)</td>
+</tr>
+<tr>
+<td>testcIfTheCostForTwoOptionIsWorking</td>
+<td class="failures">failed (1m9.03s)</td>
+</tr>
+<tr>
+<td>testcIfTheFacebookIsWorkingOnSignUpScreen</td>
+<td class="success">passed (1m13.49s)</td>
+</tr>
+<tr>
+<td>testcIfTheFavouriteWorksForDineInForDeliveryAndForTakeaway</td>
+<td class="success">passed (3m14.52s)</td>
+</tr>
+<tr>
+<td>testcIfTheFeaturesSortingWWorks</td>
+<td class="success">passed (2m38.28s)</td>
+</tr>
+<tr>
+<td>testcIfTheFoodAndBeveragesOptionWorksOnAllTheTabs</td>
+<td class="success">passed (1m40.92s)</td>
+</tr>
+<tr>
+<td>testcIfTheFoodSortingOptionWorksOnAllTheTabs</td>
+<td class="failures">failed (58.273s)</td>
+</tr>
+<tr>
+<td>testcIfTheMenuOptionIsWorkingInRestaurantDetailsScreen</td>
+<td class="success">passed (49.205s)</td>
+</tr>
+<tr>
+<td>testcIfTheOpeningHoursTextIsWorking</td>
+<td class="failures">failed (1m8.30s)</td>
+</tr>
+<tr>
+<td>testcIfThePopularCuisineOptionWorksAndAllTheRequiredTextsAreVisible</td>
+<td class="success">passed (5m18.07s)</td>
+</tr>
+<tr>
+<td>testcIfTheReviewFeatureIsWorkingProperlyInTheRestaurantDetailsSCreen</td>
+<td class="failures">failed (1m49.42s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanBuyMoreThanOneCouponInDelivery</td>
+<td class="success">passed (1m59.87s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanBuyMoreThanOneCouponInDineIn</td>
+<td class="success">passed (1m24.77s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanBuyMoreThanOneCouponInTakeAway</td>
+<td class="success">passed (2m6.44s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanDeleteMorethanTwoCouponsInDelivery</td>
+<td class="failures">failed (1m52.49s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanDeleteMorethanTwoCouponsInDineIn</td>
+<td class="failures">failed (2m21.46s)</td>
+</tr>
+<tr>
+<td>testcIfUserCanDeleteMorethanTwoCouponsInTakeAway</td>
+<td class="failures">failed (2m4.41s)</td>
+</tr>
+<tr>
+<td>testcIfWeCanSignUpWithTheSameEmailIdAgain</td>
+<td class="success">passed (1m8.03s)</td>
 </tr>
 </table>
 </div>
 </div>
 <div id="footer">
 <p>Generated by 
-<a href="http://www.gradle.org">Gradle 2.2.1</a> at 13 Apr, 2016 7:01:45 PM</p>
+<a href="http://www.gradle.org">Gradle 2.2</a> at 25 Apr, 2016 3:15:49 PM</p>
 </div>
 </div>
 </body>
